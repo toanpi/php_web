@@ -1,0 +1,328 @@
+@media (min-width: 1600px) { 
+
+}
+
+
+@media (max-width: 1140px) { 
+	.minimal-menu > ul > li {
+		padding: 0px 8px!important;
+	}
+}
+
+@media (max-width: 1025px) { 
+	.minimal-menu > ul > li {
+		padding: 0px 6px!important;
+	}
+    
+    /*
+	#wrap_block_1{
+		width:100%;
+		min-height:360px;	
+		padding-top:20px;
+		background:url(../img/slide_1.jpg) no-repeat right center;
+		margin-bottom:20px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+	}
+	*/
+    
+	.wrap_news{
+		margin-bottom:10px;
+		padding-bottom:10px;
+		border-bottom:1px dashed #ccc; 	
+	}
+	
+	.block_news{
+		width:100%;	
+	}
+	
+	
+	.video_dt{
+		height:250px;	
+	}
+}
+
+@media (max-width: 1010px) { 
+	#wrap_block_1{
+		min-height:275px!important;
+	}
+	
+	.wrap_des_home{
+		display:none;	
+	}
+	
+	.wrap_logo,.wrap_lang,.wrap_cart{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.wrap_logo{
+		margin-bottom:20px;	
+	}
+	
+	.wrap_lang a{
+		padding:10px 5px;
+		font-size:25px;	
+	}
+	
+	.wrap_cart a{
+		font-size:25px;	
+	}
+	
+	.wrap_intro{
+		padding-right:0px;
+		margin-bottom:30px;	
+	}
+	
+	.wrap_menu_note{
+		border:0px;	
+	}
+	
+	.kmt_inside{
+		margin-top:0px;
+		padding:10px;
+	}
+	
+	.wrap_map{
+		height:350px;	
+	}
+	
+	.download_title{
+		display:none;	
+	}
+	
+	.download_element span{
+		display:inline-block;	
+		padding-right:10px;
+		font-weight:bold !important;
+	}
+	
+	.download_element .col-xs-12{
+		margin-bottom:10px;	
+	}
+	
+	.download_element .kmt_center{
+		text-align:left;	
+	}
+	
+	.wrap_info_purchase *,.wrap_action_purchase{
+		text-align:left  !important;
+	}
+	
+	.video_dt{
+		height:200px;	
+	}
+	
+	.wrap_detail_pd_right{
+		padding:20px 0px;
+		border-top:1px dashed #ccc;	
+		border-bottom:1px dashed #ccc;	
+	}
+	
+	#wrap_screen{
+		width:94%;	
+	}
+}
+
+@media (max-width: 800px) { 
+	#wrap_block_1 .container{
+		padding-top:30px;
+		min-height:275px!important;
+		background:url(../img/bg_tb.png) no-repeat top center;	
+	}
+	
+	.wrap_des_home{
+		display:none;	
+	}
+	
+	.wrap_logo,.wrap_lang,.wrap_cart{
+		width:100%;
+		text-align:center;	
+	}
+	
+	.wrap_logo{
+		margin-bottom:20px;	
+	}
+	
+	.wrap_lang a{
+		padding:10px 5px;
+		font-size:25px;	
+	}
+	
+	.wrap_cart a{
+		font-size:25px;	
+	}
+	
+	
+	.minimal-menu > ul > li {
+		padding: 0px!important;
+	}
+	
+	.wrap_intro{
+		padding-right:0px;
+		margin-bottom:30px;	
+	}
+	
+	.wrap_menu_note{
+		border:0px;	
+	}
+	
+	.kmt_inside{
+		margin-top:0px;
+		padding:10px;
+	}
+	
+	.wrap_map{
+		height:350px;	
+	}
+	
+	.download_title{
+		display:none;	
+	}
+	
+	.download_element span{
+		display:inline-block;	
+		padding-right:10px;
+		font-weight:bold !important;
+	}
+	
+	.download_element .col-xs-12{
+		margin-bottom:10px;	
+	}
+	
+	.download_element .kmt_center{
+		text-align:left;	
+	}
+	
+	.wrap_info_purchase *,.wrap_action_purchase{
+		text-align:left  !important;
+	}
+	
+	.video_dt{
+		height:200px;	
+	}
+	
+	.wrap_detail_pd_right{
+		padding:20px 0px;
+		border-top:1px dashed #ccc;	
+		border-bottom:1px dashed #ccc;	
+	}
+	
+	#wrap_screen{
+		width:94%;	
+	}
+    
+}
+
+@media (max-width: 769px) { 
+	
+}
+
+@media (max-width: 736px) { 
+	.wrap_cart a{
+		padding-right:0px;
+	}
+	
+	.wrap_lang a,.wrap_cart a{
+		font-size:18px;	
+	}
+	
+	.wrap_social{
+		text-align:left;	
+	}
+	
+	.icon_social a {
+		padding-left: 0px;
+		padding-right:10px;
+	}
+
+}
+
+@media (max-width: 667px) { 
+	
+}
+
+@media (max-width: 640px) { 
+	
+}
+
+@media (max-width: 600px) { 
+	#wrap_block_1{
+		background:url(../img/bg_tb.png) no-repeat center;	
+		min-height:inherit;
+		padding-bottom:20px;
+	}
+	
+	.kmt_arr{
+		display:none;	
+	}
+	
+    .kmt_title_cart{
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 568px) { 
+	
+}
+
+@media (max-width: 480px) { 
+	.img_product{
+		width:100%;
+		margin-bottom:20px;
+		text-align:center;
+	}
+	
+	.info_product{
+		width:100%;	
+	}
+	
+	.wrap_product{
+		padding-bottom:20px;
+		border-bottom:1px dashed #ccc;	
+	}
+	
+	.wrap_video{
+		width:100%;	
+	}
+    
+    .wrap_cart{
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 414px) {
+	.kmt_title {
+		font-size: 20px;
+	}
+    
+    .kmt_title_cart{
+        display: none;
+    }
+    
+    .kmt_bt_sbc button{
+        width: 70%;
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 375px) { 
+	
+}
+
+@media (max-width: 360px) { 
+  	
+
+}
+
+@media (max-width: 320px) { 
+	
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="http://diagnosticsoft.com/public/img/logo.png" type="image/x-icon" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Email order at www.diagnosticsoft.com</title>
+<style>
+    table {
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        width: 100%;
+        font-family: Geneva, Arial, Helvetica, Sans-serif;
+        font-size: 13px;
+        color: #000;
+        text-align: center;
+    }
+    
+    table tr td{
+        border-collapse: collapse;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+    
+    #title_order{
+        font-weight: bold;
+        color: red;
+    }
+    
+    #info_user_order_top{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    #info_user_order_bottom{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 14px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+	
+	#logo_b img{
+		height:60px;	
+	}
+	
+	#logo_b p{
+		margin-bottom:3px;
+		font-size:13px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	#logo_b p span{
+		font-weight:bold;
+	}
+	
+	#logo_b h2{
+		font-size:24px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+</style>
+</head>
+<body>
+	<div id="logo_b">
+    	<p>
+    	<a href="http://diagnosticsoft.com"><img src="http://diagnosticsoft.com/public/img/logo.png" title="Diagesoft" alt="Diagesoft"/></a>
+        </p>
+        <p><span>Diagnosticsoft</span></p>		
+        <p>Address : 40 Street 1, Quarter 3, Binh Thuan Ward, District 7, Ho Chi Minh City, Viet Nam</p>	
+        <p>Phone : 0932 111 514</p>	
+        <p>Email : info@diagnosticsoft.com</p>	
+        <p>Website : www.diagnosticsoft.com</p>	
+        <h2>ORDER SUMMARY / SALE INVOICE</h2>		
+	</div>
+    <div id="info_user_order_top">
+    	<p>Order BarCode No : @@code@@</p>
+    	<p>Name : @@name@@</p>
+        <p>Address : @@add@@</p>
+        <p>Phone : @@phone@@</p>
+        <p>Note : @@note@@</p>
+    </div>
+    <table>
+        <tr id="title_order">
+            <td>No</td>
+            <td>Img</td>
+            <td>Name</td>
+            <td>Item #</td>
+            <td>License type</td>
+            <td>Unit Price</td>
+            <td>Unit Total</td>
+        </tr>
+        @@content_product@@
+        <tr>@@total@@</tr>
+    </table>
+    <div id="info_user_order_bottom">
+        <h2>Thank You For Being Our Customer !	</h2>					
+		<p>info@diagnosticsoft.com</p>
+    </div>
+</body>
+</html>

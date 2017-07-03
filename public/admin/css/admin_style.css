@@ -1,0 +1,545 @@
+/* CSS Document */
+*{margin:0px;padding:0px;font-family:Tahoma, Geneva, sans-serif;font-size:13px;}
+a{text-decoration: none;color: #0E76BC;}
+a:hover{color: #f00;}
+
+.note{color: #f00!important;clear: both;}
+/* Begin kmt_login */
+.kmt_hidden{
+    display: none!important;
+}
+
+.kmt_img_ad img{
+    max-width: 300px;
+}
+
+.highcharts-data-labels span{
+    font-size: 10px!important;
+}
+
+.left{text-align: left;}
+.right{text-align: right;width: 15%;}
+.center{text-align: center;font-weight: bold;}
+
+/* Begin css page_in */
+.page_in{clear:both;font-size:12px;margin:5px 0px 0px 0px;text-align:right}
+.page_in span{padding: 0px 10px;}
+.page_in a{padding:1px 5px 2px 5px;color:#fff;background:#0E76BC;border-radius: 2px;font-size:12px;}
+.page_in a:hover{padding:1px 5px 2px 5px;color:#fff;background:#D31924}
+#current_page{padding:1px 5px 2px 5px;color:#fff;background:#D31924;margin-left:3px}
+/* End css page_in */
+
+#kmt_wrap_login{
+    width: 600px;
+    margin: 0 auto;
+    background: #0E76BC;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    margin-top: -200px;
+    margin-left: -300px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.8);
+    -moz-box-shadow:    0px 0px 4px 0px rgba(50, 50, 50, 0.8);
+    box-shadow:         0px 0px 4px 0px rgba(50, 50, 50, 0.8);
+}
+
+#kmt_wrap_login h1{
+    font-size: 14px;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+}
+
+#kmt_form_login{
+    width: 600px;
+    display: inline-block;
+}
+
+#kmt_form_login_left{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#kmt_form_login_left > div{
+    width: 200px;
+    height: 200px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#kmt_form_login_left > div *{
+	vertical-align: middle;	
+}
+
+#kmt_form_login_left > div img{
+    max-width: 180px;
+    max-height: 180px;
+}
+
+#kmt_form_login_right{
+    width: 380px;
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    height: 170px;
+    padding-top: 30px;
+}
+
+.kmt_title_form_login{
+    list-style: none;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.kmt_title_form_login li{
+    width: 100px;
+    color: #000;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.kmt_element_form_login{
+    list-style: none;
+    float: left;
+    text-align: left;
+}
+
+.kmt_element_form_login li{
+    width: 260px;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.kmt_element_form_login li .input_text{
+    width: 255px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+
+.kmt_element_form_login li .bt_ad{
+    padding: 2px 10px;
+}
+
+.kmt_element_form_login li a{
+    color: #f00;
+    font-size: 12px;
+}
+
+.kmt_element_form_login li a:hover{
+    color: #0E76BC;
+}
+
+
+/* End kmt_login */
+
+/* Begin page admin _____________________________________________ */
+
+#kmt_admin_top{
+    width: 100%;
+    height: 75px;
+    background: #0E76BC;
+    padding: 10px 0px;
+}
+
+#kmt_admin_top_all{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#kmt_admin_logo{
+    width: 33%;
+    float: left;
+}
+
+#kmt_admin_icon{
+    width: 67%;
+    float: left;
+    text-align: right;
+}
+
+#kmt_admin_icon p{
+    float: left;
+}
+
+#kmt_admin_icon p:nth-child(1){
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+    width: 90%;
+    padding-top: 10px;
+}
+
+#kmt_admin_icon p:nth-child(1) a{
+    color: #fff;
+	font-size: 13px;
+}
+
+#kmt_admin_icon p:nth-child(1) a:hover{
+    color: #f00;
+}
+
+
+#kmt_admin_icon p:nth-child(2){
+    width: 10%;
+    text-align: right;
+}
+
+#kmt_admin_icon p:nth-child(2) img{
+    height: 75px;
+}
+
+#kmt_admin_middle{
+    width: 100%;
+    display: inline-block;
+    clear: both;
+    margin: 5px 0px;
+}
+
+#kmt_admin_middle_left{
+    width: 20%;
+    float: left;
+    border: 1px solid #0E76BC;
+    border-left: 0px;
+    margin-right: 0.5%;
+}
+
+#kmt_admin_menuleft{
+    list-style: none;
+    font-weight: bold;
+}
+
+#kmt_admin_menuleft li{
+    border-bottom: 1px solid #0E76BC;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 2px 5px 2px 10px;
+}
+
+.kmt_admin_titlemenu{
+    background: #0E76BC;
+    color: #fff;
+    font-size: 15px!important;
+    padding: 5px 5px 5px 10px!important;
+}
+
+#kmt_admin_menuleft li a{
+    color: #0E76BC;
+}
+
+#kmt_admin_menuleft li a:hover{
+    color: #f00;
+}
+
+
+#kmt_admin_middle_right{
+    width: 79.3%;
+    float: left;
+    border: 1px solid #0E76BC;
+    border-right: 0px;
+}
+
+#kmt_admin_middle_right > h1{
+    text-align: center;
+    color: #fff;
+    background: #0E76BC;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+#kmt_admin_content{
+    width: 98%;
+    padding: 10px 1%;
+}
+
+#kmt_admin_bottom{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background: #0E76BC;
+    color: #fff;
+}
+
+#kmt_admin_bottom p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.kmt_admin_bar_1{
+    background: #E8E8E8;
+    width: 98%;
+    padding: 5px 1%;
+    display: inline-block;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.kmt_admin_bar_1 span{
+    font-size: 12px!important;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+
+.kmt_admin_bar_3{
+    display: inline-block;
+    width: 98%;
+    background: #0E76BC;
+    padding: 5px 1%;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.kmt_admin_bar_3 input{
+    padding: 0px 5px;
+}
+
+.kmt_admin_bar_3 select{
+    min-width: 100px;
+    padding: 1px 5px;
+}
+
+.kmt_admin_bar_3 select option{
+    padding: 2px;
+    font-size: 12px;
+}
+
+.kmt_admin_bar_3 p{
+    float: left;   
+}
+
+.kmt_admin_bar_3 p:nth-child(1){
+    width: 40%;
+}
+
+.kmt_admin_bar_3 p:nth-child(2){
+    width: 60%;
+    text-align: right;
+}
+
+.kmt_admin_search{
+    width: 50%;
+    float: left;
+}
+
+.kmt_admin_search input:nth-child(1){
+    float: left;
+    width: 250px;
+    height: 15px;
+    line-height: 25px;
+    padding: 3px;
+}
+
+.kmt_admin_search input:nth-child(3){
+    float: left;
+    height: 25px;
+    padding: 0px 10px;
+}
+
+.kmt_admin_page{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.kmt_admin_table,.kmt_admin_addarticles{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.kmt_admin_table tr td,.kmt_admin_addarticles tr td{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.kmt_admin_titletable{
+    background: #0E76BC;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.kmt_admin_c1{
+    background: #E5E5E5;
+}
+
+.kmt_admin_c2{
+    background: #D5D5D5;
+}
+
+.kmt_admin_c1 td input,.kmt_admin_c2 td input{
+    width: 30px;
+    text-align: center;
+}
+
+.kmt_admin_addarticles tr td{
+    padding: 7px 0px;
+}
+
+.kmt_admin_addarticles .right{
+    padding-right: 5px;
+}
+
+.kmt_admin_addarticles .left{
+    padding-left: 5px;
+}
+
+.kmt_admin_addarticles select{
+    padding: 5px;
+    min-width: 180px;
+}
+
+.kmt_textinput{
+    width: 80%;  
+    height: 30px;
+    line-height: 30px;  
+    padding-left: 5px;
+}
+
+.kmt_buttoninput{
+    padding: 3px 10px!important;  
+}
+
+.kmt_textarea{
+    width: 98%;
+    height: 70px;
+    padding: 0.5%;
+    resize: none;
+}
+
+/* Begin Tabs*/
+.kmt_admin_tablink{
+	width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.tabs-menu {
+    height: 30px;
+    float: left;
+    clear: both;
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.tabs-menu li {
+    min-width: 100px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background: #C9C9C9;
+    text-align: center;
+}
+
+.tabs-menu li.current {
+    position: relative;
+    background: #0E76BC;
+    z-index: 5;
+}
+
+.tabs-menu li a {
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    min-width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tab {
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.tab-content {
+    width: 100%;
+    display: none;
+}
+
+#tab-1 {
+ display: block;   
+}
+
+/* End Tabs*/
+
+/* End page admin _____________________________________________ */
+
+#info_user{
+    font-family: Arial!important;
+    font-size: 16px!important;
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#info_user p{
+    margin-bottom: 5px;    
+}
+
+#titlle_u{
+    text-align: right;    
+    float: left;
+    margin: 10px 0px 5px 0px;
+    border-left: 1px solid #ccc;
+}
+
+#titlle_u li{
+    padding: 5px 10px;
+    font-family: Arial!important;
+    font-size: 13px!important;
+    background: #0E76BC;
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    font-weight: 600;
+    list-style: none;
+}
+
+#info_u{
+    text-align: left;
+    float: left;
+    margin: 10px 10px 5px 0px;
+    border-left: 1px solid #ccc;
+}
+
+#info_u li{
+    padding: 5px 5px 5px 10px;
+    font-family: Arial!important;
+    font-size: 13px!important;
+    background: #E5E5E5;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+
+.info_cus p{
+    text-align: left;
+    margin-bottom: 5px;
+}
